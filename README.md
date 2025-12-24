@@ -93,7 +93,7 @@ Never upload your real Wi-Fi credentials or bot token to a public repository.
 
 ## 🎥 Demo Video
 Watch the project in action on YouTube:  
-👉 **Demo Video Link:** https://youtu.be/YOUR_DEMO_VIDEO_LINK
+👉 **Demo Video Link:** https://youtube.com/shorts/1jTPIRvaLo4?feature=share
 
 ---
 
@@ -101,7 +101,10 @@ Watch the project in action on YouTube:
 ```
 esp32-cam-telegram-motion-alert/
 │
-├── code/
+├── circuit_diagram/
+│   └── (circuit diagram files)   ← wiring / diagram image
+│
+├── Code/
 │   ├── esp32_cam_telegram/
 │   │   ├── esp32_cam_telegram.ino
 │   │   ├── app_httpd.cpp
@@ -111,8 +114,12 @@ esp32-cam-telegram-motion-alert/
 │   └── PIR_TESTING_CODE/
 │       └── PIR_TESTING_CODE.ino
 │
+├── Result/
+│   └── (project screenshots / demo images)
+│
 ├── README.md
 └── LICENSE
+
 ```
 
 ### 📄 PIR_TESTING_CODE.ino
